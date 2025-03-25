@@ -1,3 +1,4 @@
+```
 curl -i -X POST -H "Content-Type: application/json" \
 -d '{"endPoint":"text/test","statusCode":200,"contentType":"text/plain","content":"Hello,World!"}' \
 http://localhost:3000/manage-mock
@@ -16,3 +17,4 @@ curl -i -X POST -H "Content-Type: application/json" \
 http://localhost:3000/manage-mock
 
 curl -i http://localhost:3000/service/error/test
+```
